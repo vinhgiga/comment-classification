@@ -1,0 +1,76 @@
+<View>
+    <Text name="text" value="$text" />
+    <View style="display: flex; column-gap: 30px;">
+        <Choices name="general" toName="text" >
+            <Header value="general" />
+            <Choice value="pos" />
+            <Choice value="neg" />
+        </Choices>
+
+        <Choices name="body" toName="text" >
+            <Header value="body" />
+            <Choice value="pos" />
+            <Choice value="neg" />
+        </Choices>
+
+        <Choices name="display" toName="text" >
+            <Header value="display" />
+            <Choice value="pos" />
+            <Choice value="neg" />
+        </Choices>
+
+        <Choices name="platform" toName="text" >
+            <Header value="platform" />
+            <Choice value="pos" />
+            <Choice value="neg" />
+        </Choices>
+
+        <Choices name="memory" toName="text" >
+            <Header value="memory" />
+            <Choice value="pos" />
+            <Choice value="neg" />
+        </Choices>
+
+        <Choices name="camera" toName="text" >
+            <Header value="camera" />
+            <Choice value="pos" />
+            <Choice value="neg" />
+        </Choices>
+
+        <Choices name="sound" toName="text" >
+            <Header value="sound" />
+            <Choice value="pos" />
+            <Choice value="neg" />
+        </Choices>
+
+        <Choices name="comms" toName="text" >
+            <Header value="comms" />
+            <Choice value="pos" />
+            <Choice value="neg" />
+        </Choices>
+
+        <Choices name="features" toName="text" >
+            <Header value="features" />
+            <Choice value="pos" />
+            <Choice value="neg" />
+        </Choices>
+
+        <Choices name="battery" toName="text" >
+            <Header value="battery" />
+            <Choice value="pos" />
+            <Choice value="neg" />
+        </Choices>
+
+        <Choices name="misc" toName="text" >
+            <Header value="misc" />
+            <Choice value="pos" />
+            <Choice value="neg" />
+        </Choices>
+
+        <Choices name="price" toName="text" >
+            <Header value="price" />
+            <Choice value="pos" />
+            <Choice value="neg" />
+        </Choices>
+    </View>
+</View>
